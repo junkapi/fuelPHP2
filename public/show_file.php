@@ -26,7 +26,7 @@
     $content = file_get_contents($file);
 
 //ファイルの中身を表示
-    echo n12br(htmlspecialchars($content, ENT_QUOTES, 'UTF-8'). false);
+    echo nl2br(htmlspecialchars($content, ENT_QUOTES, 'UTF-8'). false);
     
 
 
